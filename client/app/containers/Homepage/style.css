@@ -1,0 +1,35 @@
+.shop-now-container {
+  position: relative;
+}
+
+.shop-now {
+  position: absolute;
+  bottom: 105px;
+  right: 150px;
+}
+
+.cups-container {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cups-shop {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.cups-shop-mobile {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+@media only screen and (max-width: 425px) {
+  .shop-now {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
